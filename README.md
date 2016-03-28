@@ -53,8 +53,26 @@ your_car.year = 1990
 ```
 * Now every instance of that class will have a year set to `2012` UNLESS we decide to pass in an argument for `year`
 
+---
 
+## Jason's Best Practices
 
+* `Version Control` - Always push working code to github. Do not wait until you have "completed" the exercise. Version Control is meant to SAVE your progress. You wouldn't write a novel on microsoft word and only save it when the novel is done. 
+* `Pseudo Code` - Think about your application before you start to code anything. Pseudo code what your objects will look like. Also make sure to write as many user stories as possible, and build out a detailed ERD if you are utilizing a database
+* `DO NOT copy old code from a previous assignment.` If you want to use an old assignment for reference that's fine, but type out EVERYTHING. Repeat, Practice, Memorize.
+* `DO NOT use code you don't understand.` If you decide to copy something you found through your research such as Stack Overflow answers, make sure you understand every letter of that code before using it. 
+* `Doc Strings` - Use doc strings to comment out your code. They can also be viewed in the terminal when you `dir()` and `help()` your file. Doc strings can also be used to type out formatted print statements so there's no need to use string commands such as `\n`
+* `Debugging with Print()` - Print out all the values you are passing between classes and methods. You want to make sure those values are being passed how you expect it to be passed. 
+	* This works along side commenting out your code. You should be commenting every code block so other users and future you will know what the hell was going on
+* `Saving and Testing ALL Changes` - This goes along the same lines as Pushing all working versions to Github. If your code works and you add changes TEST AGAIN. Testing and pushing to github should be second nature and should occur dozens of times a day
+* `Review` - Use the lesson plans for reference, they were made so you could look back to it for guidance on what you learned today
+* `DOING > READING` - Stop looking for things to read and work on your code. Doing something is always better than just reading blogs
+
+---
+
+## Tools and Resources
+
+* Download Sizeup for your Macbook so you can snap your screens into place
 
 
 

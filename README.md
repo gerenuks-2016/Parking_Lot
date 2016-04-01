@@ -57,6 +57,12 @@ your_car.year = 1990
 
 ## Jason's Best Practices
 
+***`Know your computer` - Learning to program takes a lot of time. Knowing how to navigate your computer quickly will help you to write code, test code, and overall learn faster. Below are some best practices that you should be implementing into your programming learning***
+
+* `Keep a Clean Workspace` - Yes your desk should be clean but also your **`DESKTOP`**. Keep the amount of browser tabs, Sublime Windows, terminal tabs to a MINIMUM. This will:
+	* Save you time from looking at windows you don't need
+	* Prevent you from making errors such as changing the wrong file and wondering why it's not working
+	* MOST OF ALL - helps you focus on the task at hand
 * `Version Control` - Always push working code to github. Do not wait until you have "completed" the exercise. Version Control is meant to SAVE your progress. You wouldn't write a novel on microsoft word and only save it when the novel is done. 
 * `Pseudo Code` - Think about your application before you start to code anything. Pseudo code what your objects will look like. Also make sure to write as many user stories as possible, and build out a detailed ERD if you are utilizing a database
 * `DO NOT copy old code from a previous assignment.` If you want to use an old assignment for reference that's fine, but type out EVERYTHING. Repeat, Practice, Memorize.
@@ -74,8 +80,16 @@ your_car.year = 1990
 
 * Download Sizeup for your Macbook so you can snap your screens into place
 
+---
 
+## Gerenuks Course Calendar
 
+| Weeks | Day 1                                            | Day 2                                               | Day 3                                                 | Day 4                            | Day 5                                   | Weekend  Assignments           |
+|-------|--------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------|-----------------------------------------|--------------------------------|
+| 1     | Python Fundamentals One                          | Python Fundamentals Two                             | Intro to Object Oriented Programming                  | OOPs Part  Two                   | Review                                  | RPG Version One                |
+| 2     | Big O Linked List Stacks Queues                  | Binary Search Linear Search Insert Sort Bubble Sort | MVC Intro Views Controller SQL Intro                  | Full MVC Sqlite3 CreateDB SeedDB | Review No Class                         | RPG  Version Two               |
+| 3     | RPG Review                                       | Foreign Keys Relational Databases                   | Relational Databases Part Two SQL JOINS Bank Software | API Intro OMDB Movie Search      | API Part Two Markit API Terminal Trader | Terminal Trader Trader to Bank |
+| 4     | Advanced Python Args + Kwargs List Comprehension | Review                                              | Review                                                | Review                           | Phase 1 Assessment                      |                                |
 
 
 

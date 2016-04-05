@@ -88,8 +88,8 @@ your_car.year = 1990
 |-------|--------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------|-----------------------------------------|--------------------------------|
 | 1     | Python Fundamentals One                          | Python Fundamentals Two                             | Intro to Object Oriented Programming                  | OOPs Part  Two                   | Review                                  | RPG Version One                |
 | 2     | Big O Linked List Stacks Queues                  | Binary Search Linear Search Insert Sort Bubble Sort | MVC Intro Views Controller SQL Intro                  | Full MVC Sqlite3 CreateDB SeedDB | Review No Class                         | RPG  Version Two               |
-| 3     | RPG Review                                       | Foreign Keys Relational Databases                   | Relational Databases Part Two SQL JOINS Bank Software | API Intro OMDB Movie Search      | API Part Two Markit API Terminal Trader | Terminal Trader Trader to Bank |
-| 4     | Advanced Python Args + Kwargs List Comprehension | Review                                              | Review                                                | Review                           | Phase 1 Assessment                      |                                |
+| 3     | Foreign Keys Relational Databases                | Relational Databases Part Two SQL JOINS Bank Software | API Intro OMDB Movie Search | API Part Two Markit API Terminal Trader      | Terminal Trader Trader to Bank | Terminal Trader Trader to Bank |
+| 4     | Advanced Python Args + Kwargs List Comprehension | Review                                              | Review                                                | Review / OMDB Homework           | Phase 1 Assessment                      |                                |
 
 
 

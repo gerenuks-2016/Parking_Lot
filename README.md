@@ -95,4 +95,25 @@ your_car.year = 1990
 
 
 
+## Keyboard Shortcuts
+
+##### Macbooks
+
+* `cmd+s` - Save
+* `cmd+c` - Copy
+* `cmd+x` - Cut
+* `cmd+v` - Paste
+* `cmd+tab` - change between programs. Hold down command and tap tab to filter through programs
+* `cmd+(tilda button)` - change between windows of the same program. Hold down command and press the tilda button to filter through the windows
+* `cmd+w` - Quit a tab
+* `cmd+q` - Force quit a program
+
+##### Sublime
+
+* `cmd+d` - Target the next showing of whatever word your cursor is already on
+* `cmd+option+(press a number)` - This will quickly break up your screen into columns equal to the number you pressed
+* `cmd+(press a number)` - Target a specific tab based on a number
+* `tab` - tab your line to the right. Default in sublime is 4 spaces, you can customize your tab size to be 2 spaces or anything you like
+* `shift+tab` - tab your line to the left. (reverse tab)
+
 

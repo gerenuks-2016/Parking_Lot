@@ -76,24 +76,94 @@ your_car.year = 1990
 
 ---
 
-## Tools and Resources
+## Mustache Templating Examples
 
-* Download Sizeup for your Macbook so you can snap your screens into place
+* This is an example of how the movies.html file will look.
+
+```
+{% verbatim %}
+	
+	<script id="list" type="x-tmpl-mustache">
+
+	<h3>MOVIES</h3>
+	
+	<ul>
+	{{#Search}}
+
+	<img src="{{Poster}}">
+		<li>
+			Title: {{Title}}
+		</li>
+		<li>
+			Year: {{Year}}
+		</li>
+		<li>
+			Type: {{Type}}
+		</li>
+
+	{{/Search}}
+	</ul>	
+
+
+
+	<h4>{{Response}}</h4>
+
+	</script>
+
+{% endverbatim %}
+
+```
+
+* Here is the mustache command that will be in your javascript file
+
+```
+				var template = $('#list').html();
+				var renderM = Mustache.render(template,data);
+				$('#blah').html(renderM)
+```
+
+
+---
+
+## Editing Django Model Forms
+
+```
+from django import forms
+from django.contrib.auth.models import User
+from .models import Leader
+
+class UserSignUp(forms.ModelForm):
+
+	# Had to set up this empty string so that bullshit default helptext doesn't appear. Thanks Django
+	username = forms.CharField(widget=forms.TextInput(
+		),
+		help_text="",
+		required = True,
+		min_length = 6,
+	)
+	password = forms.CharField(widget=forms.PasswordInput(),
+		required = True,
+		min_length = 6,
+	)
+```
 
 ---
 
 ## Gerenuks Course Calendar
 
-| Weeks | Day 1                                            | Day 2                                               | Day 3                                                 | Day 4                            | Day 5                                   | Weekend  Assignments           |
-|-------|--------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------|-----------------------------------------|--------------------------------|
-| 1     | Python Fundamentals One                          | Python Fundamentals Two                             | Intro to Object Oriented Programming                  | OOPs Part  Two                   | Review                                  | RPG Version One                |
-| 2     | Big O Linked List Stacks Queues                  | Binary Search Linear Search Insert Sort Bubble Sort | MVC Intro Views Controller SQL Intro                  | Full MVC Sqlite3 CreateDB SeedDB | Review No Class                         | RPG  Version Two               |
-| 3     | Foreign Keys Relational Databases                | Relational Databases Part Two SQL JOINS Bank Software | API Intro OMDB Movie Search | API Part Two Markit API Terminal Trader      | Terminal Trader Trader to Bank | Terminal Trader Trader to Bank |
-| 4     | Advanced Python Args + Kwargs List Comprehension | Review                                              | Review                                                | Review / OMDB Homework           | Phase 1 Assessment                      |                                |
+| Weeks | Day 1                                            | Day 2                                               | Day 3                                                 | Day 4                                                    | Day 5                                   | Weekend  Assignments             |
+|-------|--------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------|-----------------------------------------|----------------------------------|
+| 1     | Python Fundamentals One                          | Python Fundamentals Two                             | Intro to Object Oriented Programming                  | OOPs Part  Two                                           | Review                                  | RPG Version One                  |
+| 2     | Big O Linked List Stacks Queues                  | Binary Search Linear Search Insert Sort Bubble Sort | MVC Intro Views Controller SQL Intro                  | Full MVC Sqlite3 CreateDB SeedDB                         | Review No Class                         | RPG  Version Two                 |
+| 3     | RPG Review                                       | Foreign Keys Relational Databases                   | Relational Databases Part Two SQL JOINS Bank Software | API Intro OMDB Movie Search                              | API Part Two Markit API Terminal Trader | Terminal Trader Trader to Bank   |
+| 4     | Advanced Python Args + Kwargs List Comprehension | Review                                              | Review                                                | Review                                                   | Phase 1 Assessment                      | HTML + CSS  Reading              |
+| 5     | HTML CSS JavaScript                              | Star Wars  Vanilla DOM                              | Star Wars jQuery DOM                                  | CSS Positions JS This Tic Tac Toe                        | CSS Positions JS This Tic Tac Toe       | Tic Tac Toe Rock Paper  Scissors |
+| 6     | CSS Animations                                   | Django Intro Virtual Env                            | Django CRUD Multiple Tables                           | Django Model Forms                                       | Template  Inheritance Static Files      | UserLESS  Blog                   |
+| 7     | Class Based Views User Sessions                  | jng_w07_d03 Custom Validation Form Validation       | jng_w07_d04 Building Your Own API                     | jng_w07_d05 Building the  Front End For your API AJAX!!! | MOAR AJAX!!!                            | TODOS AJAX  TODOS API            |
+| 8     | Review Hacker News                               | Review Hacker News                                  | Review                                                | Review                                                   | Assessment                              |                                  |
 
 
-
-
+---
 
 ## Keyboard Shortcuts
 
@@ -116,4 +186,10 @@ your_car.year = 1990
 * `tab` - tab your line to the right. Default in sublime is 4 spaces, you can customize your tab size to be 2 spaces or anything you like
 * `shift+tab` - tab your line to the left. (reverse tab)
 
+---
+
+
+## Tools and Resources
+
+* Download Sizeup for your Macbook so you can snap your screens into place
 
